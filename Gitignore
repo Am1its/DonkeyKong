@@ -1,0 +1,49 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore static and dynamic libraries
+*.lib
+*.a
+
+# Ignore Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+*.opensdf
+*.sdf
+*.vcxproj.*
+*.vspxproj.*
+*.pdb
+
+# Ignore temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore build directories
+/build/
+/bin/
+/debug/
+/release/
+/x64/
+/x86/
+
+# Ignore dependencies
+node_modules/
+.vscode/
+.idea/
+
