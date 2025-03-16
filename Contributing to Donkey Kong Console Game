@@ -1,0 +1,44 @@
+# Contributing to Donkey Kong Console Game
+
+Thank you for considering contributing to this project! We welcome contributions that improve the game, add new features, or fix bugs.
+
+## How to Contribute
+1. **Fork the Repository**
+   - Click the `Fork` button on GitHub and clone your fork to your local machine:
+     ```sh
+     git clone https://github.com/your-username/DonkeyKongConsoleGame.git
+     cd DonkeyKongConsoleGame
+     ```
+
+2. **Create a New Branch**
+   - Name your branch based on the feature or fix you are working on:
+     ```sh
+     git checkout -b feature-new-movement
+     ```
+
+3. **Make Changes & Commit**
+   - Ensure your code follows the project's structure and guidelines.
+   - Add and commit your changes:
+     ```sh
+     git add .
+     git commit -m "Added new movement mechanic"
+     ```
+
+4. **Push to GitHub & Open a Pull Request**
+   - Push your changes to GitHub:
+     ```sh
+     git push origin feature-new-movement
+     ```
+   - Open a pull request (PR) and describe your changes.
+
+## Code Guidelines
+- Use clear and descriptive variable and function names.
+- Comment your code where necessary to improve readability.
+- Keep commits small and focused on a single change.
+- Before submitting a PR, test your changes thoroughly.
+
+## Reporting Issues
+If you find a bug or want to request a feature, please open an issue in the repository.
+
+Thank you for contributing! 🎮
+
