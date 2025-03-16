@@ -13,6 +13,8 @@ The objective of the game is to control Mario (`@`) and navigate through obstacl
 - **Multiple stages** loaded from `.screen` files.
 - **Save and load functionality** for recording and replaying games.
 - **Silent mode** (`-silent`) for automated result verification.
+- **Organized file structure** for better maintainability.
+- **CI/CD support (planned)** for automated testing.
 
 ## Installation & Execution
 ### **1. Clone the repository**
@@ -72,6 +74,19 @@ The project includes:
 - **`.screen` files**: Defines game levels.
 - **`.steps` files**: Records movement steps.
 - **`.result` files**: Stores expected results.
+
+## Repository Enhancements
+To improve the project structure and maintainability, the following updates were made:
+- **Added a `.gitignore` file** to exclude compiled binaries and temporary files.
+- **Organized file structure**:
+  - `src/` → C++ source files.
+  - `include/` → Header files.
+  - `assets/` → Game assets (screens, steps, results).
+  - `docs/` → Documentation and guides.
+- **Planned CI/CD integration** using GitHub Actions for automated testing.
+- **Added a LICENSE file (MIT)** to clarify usage permissions.
+- **Included contributing guidelines (CONTRIBUTING.md)** to help new contributors.
+- **Defined a Code of Conduct (CODE_OF_CONDUCT.md)** to maintain a welcoming environment.
 
 ## Contributors
 - **Ziv Balassiano**
